@@ -44,10 +44,10 @@
 }
 
 #login-form input[type="submit"] {
-  background-color: var(--yellow);
   cursor: pointer;
   padding: 20px 0px;
   border-radius: 5px;
+  transition: background-color 0.3s linear;
 }
 
 #login-form a {
@@ -55,4 +55,8 @@
   text-decoration: none;
   color: inherit;
   font-size: 13px;
+}
+
+#login-form input[type="submit"]:hover {
+  background-color: var(--yellow);
 }

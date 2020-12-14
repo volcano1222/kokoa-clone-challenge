@@ -2,6 +2,7 @@
 
 @import "reset.css";
 @import "variables.css";
+@import "animation.css";
 
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
@@ -26,4 +27,15 @@ body {
 
 .main-screen {
   padding: 0px var(--horizontal-space);
+}
+
+@keyframes moveFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(60px);
+  }
+
+  to {
+    opacity: 1;
+  }
 }

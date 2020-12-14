@@ -28,6 +28,7 @@
   font-size: 12px;
 }
 
+.more-suggestions__icon img,
 .more-suggestions__icon-image {
   width: 60px;
   height: 60px;

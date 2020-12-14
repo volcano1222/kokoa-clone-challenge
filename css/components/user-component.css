@@ -53,3 +53,16 @@
   margin-bottom: 10px;
   display: block;
 }
+
+.end-line {
+  border-bottom: var(--main-border);
+  padding-bottom: 10px;
+}
+
+.user-component:hover {
+  cursor: pointer;
+}
+
+.--user-margin-bottom {
+  margin-bottom: 7px;
+}

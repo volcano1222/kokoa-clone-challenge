@@ -18,20 +18,6 @@
   position: relative;
 }
 
-@keyframes notificationAnimation {
-  0% {
-    transform: none;
-  }
-
-  50% {
-    transform: translateY(-10px) rotatey(360deg);
-  }
-
-  100% {
-    transform: none;
-  }
-}
-
 .nav__notification {
   position: absolute;
   left: 15px;
@@ -39,21 +25,11 @@
   animation: notificationAnimation 1.5s ease-in-out infinite;
 }
 
-@keyframes apperBtnAnimation {
-  from {
-    opacity: 0;
-  }
-
-  to {
-    opacity: 1;
-    transform: none;
-  }
-}
-
-.nav__btn {
-  transform: translateY(50px);
+.nav__list {
   opacity: 0;
-  animation: apperBtnAnimation 0.3s ease-in-out forwards;
+  transform: translateY(50px);
+  animation: flip-horizontal-bottom 0.7s cubic-bezier(0.455, 0.03, 0.515, 0.955)
+    forwards;
 }
 
 .nav__btn:nth-child(2) {
@@ -66,4 +42,8 @@
 
 .nav__btn:last-child {
   animation-delay: 0.9s;
+}
+
+.nav__btn:hover {
+  animation: slide-top 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) infinite;
 }

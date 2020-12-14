@@ -11,8 +11,20 @@
 .settings-setting i {
   margin-right: 20px;
   font-size: 22px;
+  width: 10%;
+}
+
+.settings-setting-column {
+  width: 50%;
 }
 
 .settings-setting-column:last-child {
   opacity: 0.5;
+  margin-left: auto;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.alt-header__column > i:hover {
+  animation: slide-top 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) infinite;
 }
