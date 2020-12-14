@@ -33,62 +33,128 @@
       </div>
       </div>
     </header>
-    
-    <a href="" id="friends-display-link">
-      <i class="fas fa-info-circle"></i>
-      Friends' Names Display
-      <i class="fas fa-chevron-right fa-xs"></i>
-    </a>
-    
-    <main class="friends-screen">
-      <div class="user-component">
-        <div class="user-component__column">
-          <img class="user-component__avatar user-component__avatar--xl" src="https://avatars3.githubusercontent.com/u/3612017" alt="">
-          <div class="user-component__text">
-            <h4 class="user-component__title">Nicolas</h4>
-            <h6 class="user-component__subtitle">this text whatever</h6>
+    <div class="moveFadeIn --loding-delay">
+      <a href="" id="friends-display-link">
+        <i class="fas fa-info-circle"></i>
+        Friends' Names Display
+        <i class="fas fa-chevron-right fa-xs"></i>
+      </a>
+      
+      <main class="friends-screen">
+        <div class="user-component">
+          <div class="user-component__column">
+            <img class="user-component__avatar user-component__avatar--xl" src="screenshots/profile-ryan.png" alt="">
+            <div class="user-component__text">
+              <h4 class="user-component__title">Ryan</h4>
+              <h6 class="user-component__subtitle">I love Kokoa Clone Coding</h6>
+            </div>
+          </div>
+          <div class="user-component__column"></div>
+        </div>
+        <div class="friends-screen__channel start-line">
+          <div class="friends-screen__channel-header">
+            <span>channel</span>
+            <i class="fas fa-chevron-up fa-xs"></i>
           </div>
         </div>
-        <div class="user-component__column"></div>
-      </div>
-      <div class="friends-screen__channel">
-        <div class="friends-screen__channel-header">
-          <span>channel</span>
-          <i class="fas fa-chevron-up fa-xs"></i>
-        </div>
-      </div>
-      <div class="user-component">
-        <div class="user-component__column">
-          <img class="user-component__avatar user-component__avatar--sm" src="https://avatars3.githubusercontent.com/u/3612017" alt="">
-          <div class="user-component__text">
-            <h4 class="user-component__title user-component__title--not-bold">Channel</h4>      
+        <a href="https://nomadcoders.co/" target="_blank">
+          <div class="user-component end-line">
+            <div class="user-component__column">
+              <img class="user-component__avatar user-component__avatar--sm" src="screenshots/nomardicon.png" alt="">
+              <div class="user-component__text">
+                <h4 class="user-component__title user-component__title--not-bold">Nomadcoders</h4>                
+              </div>
+            </div>
+            <div class="user-component__column">
+              <div>
+                <span>2</span>          
+              <i class="fas fa-chevron-right fa-xs"></i>                    
+              </div>          
+            </div>
+          </div>
+        </a>
+        <div class="friends-screen__channel --no-mg-top">
+          <div class="friends-screen__channel-header">
+            <span>Friends 4</span>
+            <i class="fas fa-chevron-up fa-xs"></i>
           </div>
         </div>
-        <div class="user-component__column">
-          <div>
-            <span>2</span>          
-          <i class="fas fa-chevron-right fa-xs"></i>                    
-          </div>          
+        <div class="user-component">
+          <div class="user-component__column">
+            <img class="user-component__avatar user-component__avatar--sm" src="screenshots/profile-neo.png" alt="">
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title--not-bold">Neo</h4> 
+              <h6 class="user-component__subtitle">Love Nomard Coders</h6>         
+            </div>
+          </div>
+          <div class="user-component__column">
+            <div>                   
+            </div>          
+          </div>
         </div>
-      </div>
-    </main>
+  
+        <div class="user-component">
+          <div class="user-component__column">
+            <img class="user-component__avatar user-component__avatar--sm" src="screenshots/profile-muzi.png" alt="">
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title--not-bold">Muzi</h4>  
+              <h6 class="user-component__subtitle">Enjoying HTML</h6>        
+            </div>
+          </div>
+          <div class="user-component__column">
+            <div>                 
+            </div>          
+          </div>
+        </div>
+  
+        <div class="user-component">
+          <div class="user-component__column">
+            <img class="user-component__avatar user-component__avatar--sm" src="screenshots/profile-apeach.png" alt="">
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title--not-bold">Apeach</h4>
+              <h6 class="user-component__subtitle">Learning CSS</h6>          
+            </div>
+          </div>
+          <div class="user-component__column">
+            <div>
+            </div>          
+          </div>
+        </div>
+  
+        <div class="user-component">
+          <div class="user-component__column">
+            <img class="user-component__avatar user-component__avatar--sm" src="screenshots/profile-frodo.png" alt="">
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title--not-bold">Frodo</h4>      
+            </div>
+          </div>
+          <div class="user-component__column">
+            <div>          
+            </div>          
+          </div>
+        </div>
+      </main>
+    </div>
 
     <nav class="nav">
-        <ul class="nav__list">
-            <li class=nav__btn>
+        <ul class="nav__list --loding-delay">
+            <li class="nav__btn">
                 <a class="nav__link" href="friends.html"><i class="fas fa-user fa-2x"></i></a>
             </li>
-            <li class=nav__btn>
+            <li class="nav__btn">
                 <a class="nav__link" href="chats.html">
                   <span class="nav__notification badge">1</span>
                   <i class="far fa-comment fa-2x"></i>
                 </a>
             </li>
-            <li class=nav__btn>
+            <li class="nav__btn">
                 <a class="nav__link" href="find.html"><i class="fas fa-search fa-2x"></i></a>
             </li>
-            <li class=nav__btn>
-                <a class="nav__link" href="more.html"><i class="fas fa-ellipsis-h fa-2x"></i></a>
+            <li class="nav__btn">
+                <a class="nav__link" href="more.html">
+                  <i class="fas fa-ellipsis-h fa-2x"></i>
+                  <div class="badge-dot"></div>        
+                </a>
             </li>
         </ul>
     </nav>

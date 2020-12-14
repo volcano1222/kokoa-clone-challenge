@@ -19,12 +19,11 @@
 
 .friends-screen__channel {
   margin-top: 25px;
-  border-top: var(--main-border);
   padding-top: 15px;
 }
 
 .friends-screen__channel-header {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   display: flex;
   justify-content: space-between;
   color: rgba(0, 0, 0, 0.5);
@@ -54,6 +53,46 @@
   animation-delay: 1.4s;
 }
 
+@keyframes hideSplashScreenIcon {
+  0% {
+    transform: none;
+  }
+
+  25% {
+    transform: scale(2);
+  }
+
+  50% {
+    transform: scale(1.7);
+  }
+
+  75% {
+    transform: scale(2.1);
+  }
+
+  100% {
+    transform: none;
+  }
+}
+
 #splash-screen i {
   font-size: 132px;
+  animation: hideSplashScreenIcon 1.9s ease-in-out forwards;
+}
+
+.start-line {
+  border-top: var(--main-border);
+}
+
+.--no-mg-top {
+  margin-top: 0px;
+}
+
+.moveFadeIn {
+  opacity: 0;
+  animation: moveFadeIn 0.5s ease-in-out forwards;
+}
+
+.--loding-delay {
+  animation-delay: 1.9s;
 }

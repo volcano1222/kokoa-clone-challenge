@@ -33,3 +33,7 @@
   display: inline;
   position: relative;
 }
+
+.screen-header__icons > span > i:hover {
+  animation: slide-top 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) infinite;
+}
