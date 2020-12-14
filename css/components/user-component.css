@@ -62,3 +62,7 @@
 .user-component:hover {
   cursor: pointer;
 }
+
+.--user-margin-bottom {
+  margin-bottom: 7px;
+}
